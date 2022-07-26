@@ -1,11 +1,11 @@
 ﻿public class Usuario
 { 
-    public int id;
-    public string nombre;
-    public string apellido;
-    public string nombreUsuario;
-    public string contraseña;
-    public string mail;
+    Private int id;
+    Private string nombre;
+    Private string apellido;
+    Private string nombreUsuario;
+    Private string contraseña;
+    Private string mail;
 
 
 }
@@ -14,28 +14,28 @@
 public class Producto 
 
 {
-    public int id;
-    public string descripcion;
-    public double costo;
-    public double precioDeVenta;
-    public string stock;
-    public int idUsuario;
+    Private int id;
+    Private string descripcion;
+    Private double costo;
+    Private double precioDeVenta;
+    Private string stock;
+    Private int idUsuario;
 
 }
 
 public class ProductoVendido
 
 {
-    public int id;
-    public int idProducto;
-    public int dtock;
-    public int idVenta;
+    Private int id;
+    Private int idProducto;
+    Private int dtock;
+    Private int idVenta;
 
 
 }
 
 public class Venta
 {
-    public int id;
-    public string Comentarios;
+    Private int id;
+    Private string Comentarios;
 }
